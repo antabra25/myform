@@ -1,0 +1,31 @@
+.form-group {
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+
+  }
+
+  .form-control {
+    width: 250px;
+    height: 28px;
+    outline: none;
+    border: solid 1px #273469ff;;
+    border-radius: 5px;
+
+  }
+  .form-control:focus{
+    border: solid 2px #1e2749ff;
+  }
+
+  .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+  }
+}
